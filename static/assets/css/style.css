@@ -1,0 +1,235 @@
+@import "components/preloaders.css";
+@import "components/banners.css";
+@import "components/buttons.css";
+@import "components/dropdowns.css";
+@import "components/fades.css";
+@import "components/features.css";
+@import "components/footer_1.css";
+@import "components/menus.css";
+@import "components/modals.css";
+@import "components/nav_bars.css";
+@import "components/overlays.css";
+@import "components/popups.css";
+
+@import "components/scroll_anchors.css";
+@import "components/tiles.css";
+@import "components/tiles.css";
+@import "components/team_carousel_1.css";
+@import "components/tags.css";
+
+
+
+/* custom ------*/
+.mobile{
+    display: none;
+}
+
+@media only screen and (max-width:600px){
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}
+
+.txt-4{
+    color: var(--white);
+}
+
+.txt-5{
+    color: var(--white);
+}
+
+/* header-------*/
+
+.colony_nav{
+    background:none;
+    transition: 0.3s;
+}
+.colony_nav.scrolled{
+    background:var(--darkGreen);
+
+}
+
+.colony_nav .links a{
+    color: var(--white);
+}
+
+.colony_nav .control_dropdown{
+    color: var(--white);
+}
+
+.colony_nav .control_dropdown{
+    color: var(--white);
+}
+
+.colony_nav .control_dropdown a{
+    color: var(--black);
+}
+
+
+
+
+/* hero-------------*/
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.hero .colony_overlay{
+    background: rgba(0,0,0, 0.35);
+}
+
+.hero .transition{
+    z-index: 2;
+}
+
+.hero .colony_tile
+{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.hero .transition{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* About ------- */
+
+.about
+{
+    background:var(--offWhite);
+}
+
+.about img{
+    border-radius: 30px;
+}
+
+/* Destinations------- */
+
+.destinations .title{
+    color: var(--orange);
+    font-size: 2.3rem !important;
+    
+}
+
+.destinations .colony_team_carousel_1_slides .slide{
+    position: relative;
+}
+
+.destinations .colony_team_carousel_1_slides .slide .colony_tag{
+    position: absolute;
+    top: var(--space-xsml);
+    left: var(--space-xsml);
+    background:var(--plum);
+    color: var(--offWhite);
+}
+
+
+
+.destinations .colony_team_carousel_1_slides .slide img{
+    border-radius: 10px;
+    border-right: 10px solid var(--orange);
+}
+
+.destinations .colony_team_carousel_1_slides .slide .title{
+    font-size: 1.7rem !important;
+    color: var(--offWhite);
+}
+
+.destinations .colony_team_carousel_1_slides .slide .subtitle{
+    color: var(--orange);
+}
+
+/* Banner ------*/
+
+.banner .colony_tile{
+    width: 100%;
+    padding-top: 30%;
+    background: url(/assets/img/banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width:600px){
+    .banner .colony_tile{
+   
+        padding-top: 60%;
+    }
+    
+}
+
+/* contact------*/
+
+
+
+.contact .content-med{
+    background:var(--plum);
+    padding:var(--space-med);
+    border-radius: 20px;
+    position: relative;
+    margin-top:-100px;
+    left: 0;
+    right: 0;
+}
+
+@media only screen and (max-width:600px){
+    .contact .colony_form .btn-1{
+        width: 100%;
+    }
+    
+}
+
+
+
+.contact
+{
+    position: relative;
+    padding:20px 20px 50px 20px;
+  
+}
+
+.contact input, .contact textarea{
+    border-bottom: 1px solid var(--offWhite) !important;
+    background:transparent;
+    border: none;
+    color: var(--offWhite) !important;
+}
+ 
+
+
+/* Footer --------*/
+
+.colony_footer
+{
+    background:var(--darkGreen);
+}
+
+.colony_footer .txt-3, .colony_footer .txt-2{
+    margin-bottom: 0px;
+}
+
+.colony_footer a{
+    text-decoration: none;
+}
+
+/* preloader ------*/
+
+.colony_preloader {
+	
+	background: var(--plum);
+
+}
+/* popup ------*/
+
+.colony_popup {
+
+    background: var(--orange);
+   
+}

@@ -1,0 +1,11 @@
+[{
+    "ajaxChimp": false,
+    "cloudflare": false,
+    "fontAwesome": true,
+    "jqueryUI": false,
+    "jsCookie": false,
+    "netlifyIdentity": false,
+    "slick": true,
+    "schemaDotOrg": false,
+    "visible": false
+}]
